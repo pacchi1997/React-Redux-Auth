@@ -10,7 +10,7 @@ function App() {
     <>
     <Header />
     {!loggedIn ? <Auth /> : <UserProfile />}
-    {loggedIn && <Counter />}
+
     </>
   );
 }
